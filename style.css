@@ -9,7 +9,7 @@
     display: flex;
     animation: scroll 20s liner infinite;
     -webkit-animation: scroll 20s linear infinite;
-    width: calc(100px * 10);
+    width: calc(100px * 15);
 }
 
 .slider .slide {
@@ -29,7 +29,7 @@
 
     100%{
         transform: translatex(calc(-100px * 5));
-        -webkit-animation: transformx(calc(-200px * 5));
+        -webkit-animation: transformx(calc(-100px * 5));
     }    
 }
 
